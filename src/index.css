@@ -2,38 +2,46 @@
 
 
 
+@font-face {
+  font-family: 'Eternalo';
+  src: url('./fonts/Eternalo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Garet-Heavy';
+  src: url('./fonts/Garet-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Garet';
+  src: url('./fonts/Garet-Book.ttf') format('truetype');
+}
 
 #root {
   min-height: 100vh;
   background-color: #D4DE95;
   color: #3D4127;
+  
 }
-
-@font-face {
-  font-family: 'Eternalo';
-  src: url('.src/fonts/MyCustomFont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 h1,
 h2 {
   font-family: var(--heading);
   font-weight: 500;
-  font-size: 200px;
+  font-size: 300px;
 
   color: var(--text-h);
 }
 
 h1 {
-  font-size: 200px;
+  font-size: 300px;
   letter-spacing: -1.68px;
   margin: 32px 0;
+  font-family: 'Eternalo', sans-serif;
   
   
   @media (max-width: 1024px) {
-    font-size: 36px;
+    font-size: 40px;
     margin: 20px 0;
   }
 }
@@ -68,12 +76,55 @@ code {
 
 .home h1{
 
-  font-size: 125px;
+  font-size: 165px;
   line-height: 90%;
-  text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.15);
+  
   font-family: 'Eternalo', sans-serif;
+  margin-bottom: 24px
+
+  
+}
+.home p{
+
+  font-size: 30px;
+  line-height: 150%;
+  
+  
+  font-family: 'Garet', sans-serif;
 
   
 }
 
+.booking{
+  font-family: 'Garet', sans-serif;
+  
 
+}
+
+.navbar {
+  background-color: #3D4127 !important;
+  padding: 1rem 0;
+  font-size: 40px; 
+  font-family: 'Garet-Heavy', sans-serif;
+}
+
+.navbar .nav-link {
+  color: #D4DE95 !important;
+  font-size: 1.5rem;
+  
+  margin-right: 20px;
+}
+
+
+.navbar .nav-link:hover {
+  color: white !important;
+}
+
+
+
+
+.phone {
+  color: #D4DE95 !important;
+  font-size: 1.5rem;
+}

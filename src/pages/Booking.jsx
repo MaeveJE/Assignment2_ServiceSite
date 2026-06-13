@@ -3,7 +3,7 @@ import NavigationBar from '../components/Nav';
 
 export default function Booking() {
   return (
-    <div className="App">
+    <div className="booking">
       <NavigationBar />
       <h1>Booking Page</h1>
       <div className="container" style={{ maxWidth: 480 }}>
@@ -14,7 +14,7 @@ export default function Booking() {
         <input type="email" className="form-control" placeholder="you@example.com" />
         </div>
 
-        {/* password */}
+        
   
         {/* dropdown */}
         <div className="mb-3">

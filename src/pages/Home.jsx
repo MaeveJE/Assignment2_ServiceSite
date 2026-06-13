@@ -15,7 +15,7 @@ export default function Home() {
         
         <Col md={6}>
           <h1>Full Bloom Landscaping</h1>
-          <p>Professional landscaping, lawn care, and garden maintenance tailored to your needs.</p>
+          <p>Professional landscaping, lawn care, and garden maintenance tailored to your needs</p>
         </Col>
 
         
